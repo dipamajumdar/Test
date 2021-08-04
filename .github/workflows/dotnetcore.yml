@@ -24,6 +24,6 @@ jobs:
     - name: Test  
       run: dotnet test --no-restore --verbosity normal 
     - name: Publish  
-      uses: brandedoutcast/publish-nuget@v2.5.2  
+      uses: https://github.com/brandedoutcast/publish-nuget@v2.5.2  
       with:   
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}  
